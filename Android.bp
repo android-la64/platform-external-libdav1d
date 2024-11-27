@@ -94,6 +94,12 @@ cc_defaults {
                 "config/riscv64",
             ],
         },
+
+        loongarch64: {
+            local_include_dirs: [
+                "config/loongarch64",
+            ],
+        },
     },
 
     sanitize: {
@@ -323,6 +329,12 @@ cc_defaults {
                 "config/riscv64",
             ],
 
+        },
+
+        loongarch64: {
+            local_include_dirs: [
+                "config/loongarch64",
+            ],
         },
     },
 
